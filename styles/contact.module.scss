@@ -1,0 +1,48 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.linkedinIcon {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #74A5D9;
+}
+
+.form {
+    input, textarea {
+        width: 100%;
+        padding: 20px 20px;
+        font-size: 1em;
+        margin-bottom: 1em;
+        border: 2px solid #74A5D9;
+    }
+    button {
+        width: 100%;
+        padding: 20px;
+        font-size: 1em;
+        margin-top: 1em;
+        background: #74A5D9;
+        color: #FFFFFF;
+        border: 2px solid #74A5D9;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        &:hover {
+            background: #FFFFFF;
+            color: #74A5D9;
+        }
+    }
+}
+
+[data-theme='dark'] {
+    .form {
+        button {
+            &:hover {
+                color: #5186be;
+            }
+        }
+    }
+    .linkedinIcon {
+        color: #FFFFFF;
+    }
+  }

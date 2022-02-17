@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    .links {
+        display: flex;
+        align-items: center;
+        .link {
+            margin-left: 1.25em;
+            a {
+                text-decoration: none;
+                font-size: 1.15rem;
+                &.active {
+                    border-bottom: 2px solid #74A5D9;
+                }
+            }
+            .modeDark, .modeLight {
+                border: none;
+                background: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+[data-theme='dark'] {
+    .header {
+        .links {
+            .link {
+                .modeDark{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+[data-theme='light'] {
+    .header {
+        .links {
+            .link {
+                .modeLight{
+                    display: none;
+                }
+            }
+        }
+    }
+}
