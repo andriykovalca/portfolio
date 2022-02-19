@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This a portfolio website you can find live at [AndriyKoval.ca](https://andriykoval.ca/). Built with Next.js for additional practice and having some fun with experiments.
