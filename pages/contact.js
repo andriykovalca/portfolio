@@ -40,10 +40,7 @@ export default function contact() {
         </Head>
         <Header></Header>
         <h1>Get in touch</h1>
-        <p>You can find contact me via Linkedin or by simply completing the form below.</p>
-        <a className={styles.linkedinIcon} href="https://www.linkedin.com/in/kovalandriy/" target="_blank">
-          <i class="devicon-linkedin-plain"></i>
-        </a>
+        <p>You can find contact me via <a href="https://www.linkedin.com/in/kovalandriy/" target="_blank">Linkedin</a> or by simply completing the form below.</p>
         <div className={styles.container}>
           <form onSubmit={handleSubmit} className={styles.form}>
           <label htmlFor="name">Name:</label>
