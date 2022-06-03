@@ -10,61 +10,73 @@ export default function portfolio() {
         <Layout projects>
         <Head>
           <title>Projects - Andriy Koval</title>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
         </Head>
         <Header></Header>
         <h1>Latest projects</h1>
-        <p>Veniam quis labore ullamco non minim nisi esse ex fugiat excepteur dolor. Aliquip laboris nulla commodo mollit ullamco labore ullamco fugiat reprehenderit Lorem voluptate nulla velit do. Ullamco non Lorem consectetur elit in non sunt laboris eu et ipsum. Ex minim minim tempor sint magna. Duis enim labore magna enim amet qui esse amet cupidatat. Cillum eu fugiat commodo aliquip exercitation laboris culpa aliqua enim ut. Ullamco consequat aliquip fugiat ut.</p>
+
         <div className="projects">
+
           <Project 
-            title="Recipies project" 
-            description="Ipsum laboris incididunt nisi aliquip in in aliqua pariatur fugiat."
-            github="/"
-            previewlink="/"
+            title="Uberflip.com" 
+            description="Uberflip's corporate website, built in association with miltiple designers and agencies."
+            tech="Wordpress, ACF, PHP, JS, SCSS, Vagrant, GIT, WP Engine"
+            previewlink="https://uberflip.com/"
           >
           </Project>
+
           <Project 
-            title="Recipies project" 
-            description="Ipsum laboris incididunt nisi aliquip in in aliqua pariatur fugiat."
-            github="/"
-            previewlink="/"
-          >
-          </Project>          <Project 
-            title="Recipies project" 
-            description="Ipsum laboris incididunt nisi aliquip in in aliqua pariatur fugiat."
-            github="/"
-            previewlink="/"
-          >
-          </Project>          <Project 
-            title="Recipies project" 
-            description="Ipsum laboris incididunt nisi aliquip in in aliqua pariatur fugiat."
-            github="/"
-            previewlink="/"
-          >
-          </Project>          <Project 
-            title="Recipies project" 
-            description="Ipsum laboris incididunt nisi aliquip in in aliqua pariatur fugiat."
-            github="/"
-            previewlink="/"
-          >
-          </Project>          <Project 
-            title="Recipies project" 
-            description="Ipsum laboris incididunt nisi aliquip in in aliqua pariatur fugiat."
-            github="/"
-            previewlink="/"
-          >
-          </Project>          <Project 
-            title="Recipies project" 
-            description="Ipsum laboris incididunt nisi aliquip in in aliqua pariatur fugiat."
-            github="/"
-            previewlink="/"
-          >
-          </Project>          <Project 
-            title="Recipies project" 
-            description="Ipsum laboris incididunt nisi aliquip in in aliqua pariatur fugiat."
-            github="/"
-            previewlink="/"
+            title="Uberflip Hub" 
+            description="Custom built Uberflip Resource center built with Uberflip Hub App"
+            tech="JS/jQuery, SCSS, Bootstrap, GIT, Uberflip"
+            previewlink="https://hub.uberflip.com/"
+          />
+          
+          <Project 
+            title="Uberflip Academy" 
+            description="Uberflip's Academy built with Uberflip app and TONS of modifications and custom features"
+            previewlink="https://academy.uberflip.com/"
+            tech="JS/jQuery, SCSS, Bootstrap, GIT, Uberflip"
+          />         
+            
+          <Project 
+            title="Bogoroch.com" 
+            description="Corporate website for Toronto-based personal injury law firm"
+            tech="Wordpress, ACF, PHP/HAML, JS/CoffeeScript, SCSS, Greensock, GIT"
+            previewlink="https://www.bogoroch.com/"
+          />
+
+          <Project 
+            title="Academy Theatre" 
+            description="Gallery website for a theatre based in Lindsay Kawartha Lakes, ON"
+            tech="Wordpress, ACF, PHP, JS, SCSS, Greensock, Vagrant, GIT"
+            previewlink="https://academytheatre.ca/"
+          />
+
+          <Project 
+            title="Rick and Morty db" 
+            description="Just a practice project to learn more about ReactJS - fetching data from API"
+            previewlink="https://rnmdb.netlify.app/"
+            github="https://github.com/andriykovalca/rnmdb"
+            tech="ReactJS, CRA, SASS, Rick and Morty API"
           >
           </Project>
+
+          <Project 
+            title="Rocket Science VFX" 
+            description="Corporate website for Toronto-based Visual Effects studio"
+            tech="Wordpress, ACF, PHP, JS, SCSS, GIT"
+            previewlink="https://www.rsvfx.com/"
+          />
+          
+          <Project 
+            title="Ira Koval - 2.0" 
+            description="WIP - Rebuilding original Ira Koval website with Next.js"
+            tech="Wordpress Headless CMS, Next.js, GraphQL"
+            previewlink="https://irakoval.vercel.app/"
+          >
+          </Project>
+          
         </div>
         
         <style jsx>{`

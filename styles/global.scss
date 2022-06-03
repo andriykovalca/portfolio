@@ -24,22 +24,179 @@ h1,h2,h3,h4,h5,p,a,label,button,span {
   color: #4a4a4a;
 }
 
+.rubine-text {
+  border-bottom: 4px solid #CE0052 !important;
+  text-decoration: none;
+}
+
+.blue-underline {
+  border-bottom: 4px solid #546d92 !important;
+  text-decoration: none;
+}
+
 .button {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   font-size: 1em;
-  margin-top: 1em;
   background: #74A5D9;
   color: #FFFFFF;
   border: 2px solid #74A5D9;
   cursor: pointer;
   transition: all 0.25s ease;
   text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &:hover {
       background: #FFFFFF;
       color: #74A5D9;
   }
+  svg {
+    margin-right: 10px;
+  }
 }
+
+.skills {
+  padding: 50px 0;
+  h2 {
+    text-align: center;
+  }
+}
+
+.downloadResume {
+  padding: 0 0 50px 0;
+  h2, p {
+    text-align: center;
+  }
+  p {font-size: 16px;}
+}
+
+.path {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 0;
+  h2 {
+    text-align: center
+  }
+ .animated .storyCard {
+   background: #546d92;
+   margin: 0 0 50px 0;
+   padding: 20px;
+   width: 500px;
+   max-width: 90%;
+   h3, p, svg {
+     color: #FFFFFF;
+   }
+ }
+ .story:nth-child(odd) .animated .storyCard {
+  margin-left: auto;
+  background: #3a5d8e;
+}
+}
+
+.bio {
+  padding: 0 0 50px 0;
+  h2 {
+    text-align: center;
+  }
+  p {
+    font-size: 1.75rem;
+    text-align: justify;
+    @media screen and (max-width: 992px) {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.intro {
+  p {
+      font-size: 1.75rem;
+      text-align: justify;
+      
+  }
+
+  
+}
+
+
+.tech {
+  font-size: 14px;
+}
+
+.projects {
+  .animated {
+    width: calc(50% - 30px);
+    margin-bottom: 3rem;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 8%);
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
+  }
+}
+
+.project {
+  padding: 35px 25px;
+  h3 {
+      font-size: 1.5rem;
+      margin-top: 0px;
+  }
+  a {
+      color: #4a4a4a;
+      text-decoration: none;
+      margin-right: 20px;
+      border-bottom: 2px solid #74A5D9;
+      transition: all 0.25s ease;
+      &:hover {
+          border-bottom: 2px solid #4a82bd;
+          color: #4a82bd;
+      }
+  }
+}
+
+
+
+
+
+
+
+
+
+.contactme {
+  p {
+    font-size: 3.5rem;
+    @media screen and (max-width: 992px) {
+      font-size: 1.4rem;
+    }
+  }
+  .emailButton {
+    background: none;
+    border: none;
+    font-size: 3.5rem;
+    padding: 0;
+    cursor: pointer;
+    @media screen and (max-width: 992px) {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [data-theme='dark'] {
   h1,h2,h3,h4,h5,p,a,label,button,span {
@@ -48,6 +205,20 @@ h1,h2,h3,h4,h5,p,a,label,button,span {
   .button {
     &:hover {
       color: #5186be;
+    }
+  }
+  .intro {
+    .uberflip {
+        color: #FFFFFF;
+    }
+    
+  }
+  .project {
+    box-shadow: none;
+    background: #1e1e1e;
+    a {
+        color: #FFFFFF;
+
     }
   }
 }
