@@ -26,6 +26,21 @@ export default function portfolio() {
           </Project>
 
           <Project 
+            title="Rocket Science VFX" 
+            description="Corporate website for Toronto-based Visual Effects studio"
+            tech="Wordpress, ACF, PHP, JS, SCSS, GIT"
+            previewlink="https://www.rsvfx.com/"
+          />
+          
+          <Project 
+            title="Ira Koval - 2.0" 
+            description="Work in Progress - Rebuilding original Ira Koval website with Next.js"
+            tech="Next.js, Wordpress (Headless CMS), GraphQL"
+            previewlink="https://irakoval.vercel.app/"
+          >
+          </Project>
+
+          <Project 
             title="Uberflip Hub" 
             description="Custom built Uberflip Resource center built with Uberflip Hub App"
             tech="JS/jQuery, SCSS, Bootstrap, GIT, Uberflip"
@@ -42,14 +57,14 @@ export default function portfolio() {
           <Project 
             title="Bogoroch.com" 
             description="Corporate website for Toronto-based personal injury law firm"
-            tech="Wordpress, ACF, PHP/HAML, JS/CoffeeScript, SCSS, Greensock, GIT"
+            tech="Wordpress, ACF, PHP/HAML, JS/CoffeeScript, SCSS, GreenSock, GIT"
             previewlink="https://www.bogoroch.com/"
           />
 
           <Project 
             title="Academy Theatre" 
             description="Gallery website for a theatre based in Lindsay Kawartha Lakes, ON"
-            tech="Wordpress, ACF, PHP, JS, SCSS, Greensock, Vagrant, GIT"
+            tech="Wordpress, ACF, PHP, JS, SCSS, GreenSock, Vagrant, GIT"
             previewlink="https://academytheatre.ca/"
           />
 
@@ -62,20 +77,7 @@ export default function portfolio() {
           >
           </Project>
 
-          <Project 
-            title="Rocket Science VFX" 
-            description="Corporate website for Toronto-based Visual Effects studio"
-            tech="Wordpress, ACF, PHP, JS, SCSS, GIT"
-            previewlink="https://www.rsvfx.com/"
-          />
-          
-          <Project 
-            title="Ira Koval - 2.0" 
-            description="WIP - Rebuilding original Ira Koval website with Next.js"
-            tech="Wordpress Headless CMS, Next.js, GraphQL"
-            previewlink="https://irakoval.vercel.app/"
-          >
-          </Project>
+
           
         </div>
         

@@ -92,7 +92,7 @@ export default function about() {
           <StoryCard 
             icon={<CodeIcon/>}
             title="Freelance"
-            description="Digital Compositor and TD"
+            description="Fullstack Wev Developer"
           />
 
           <StoryCard 
