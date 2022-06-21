@@ -28,7 +28,7 @@ export default function about() {
         <div className='bio'>
           <h1>About me</h1>
           <p>
-            Creative frontend developer with 5+ years of experience who cares about readability, speed, and the open web. Expert in designing, developing, and testing web-based applications incorporating a variety of technologies. I bring a strong product sense and a sharp eye for detail to every project because I come from a variety of creative positions in my background.
+            Creative front-end developer with 5+ years of experience who cares about readability, speed, and the open web. Expert in designing, developing, and testing web-based applications incorporating a variety of technologies. I bring a strong product sense and a sharp eye for detail to every project because I come from a variety of creative positions in my background.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function about() {
           <StoryCard 
             icon={<SchoolIcon/>}
             title="School"
-            description="Passed school without Google 😎"
+            description="Finished school without Google 😎"
           />
 
           <StoryCard 
@@ -92,7 +92,7 @@ export default function about() {
           <StoryCard 
             icon={<CodeIcon/>}
             title="Freelance"
-            description="Fullstack Wev Developer"
+            description="Full Stack Wev Developer"
           />
 
           <StoryCard 
