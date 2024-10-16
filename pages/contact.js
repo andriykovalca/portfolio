@@ -13,7 +13,7 @@ export default function contact() {
         <Layout contact>
         <Head>
           <title>Contact - Andriy Koval</title>
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+          <Link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
         </Head>
         <Header></Header>
         <div className='contactme'>

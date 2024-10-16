@@ -10,7 +10,7 @@ export default function portfolio() {
         <Layout projects>
         <Head>
           <title>Projects - Andriy Koval</title>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
+          <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></Link>
         </Head>
         <Header></Header>
         <h1>Latest projects</h1>

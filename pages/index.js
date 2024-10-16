@@ -20,8 +20,8 @@ export default function Home({users}) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=optional" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+        <Link href="https://fonts.googleapis.com/css2?family=Roboto&display=optional" rel="stylesheet" />
+        <Link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
 
       </Head>
       <Header></Header>
@@ -33,7 +33,7 @@ export default function Home({users}) {
           My name is Andriy Koval, and I am a front end web developer with over 5 years of experience and a track record of delivering projects on time and within budget.
         </p>
         <p >
-            I enjoy challenges and finding creative solutions to solve problems thus I am facing programing challenges with excitement. I thrive on continuous learning and I love discovering new skills. I enjoy solving complex problems and delivering high-quality results. I am passionate about creating user-friendly and visually appealing websites and applications. When I am not coding I am usually out with my camera or spending time with friends and family or catching up some tv shows. <Link href="/about">
+            I enjoy challenges and finding creative solutions to solve problems thus I am facing programing challenges with excitement. I thrive on continuous learning and I love discovering new skills. I enjoy solving complex problems and delivering high-quality results. I am passionate about creating user-friendly and visually appealing websites and applications. When I am not coding I am usually out with my camera or spending time with friends and family or catching up some tv shows. <Link legacyBehavior href="/about">
             <a className='blue-underline'>Continue reading...</a>
           </Link>
         </p>

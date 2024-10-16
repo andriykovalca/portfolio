@@ -11,8 +11,8 @@ const Header = () => {
 
     return (
         <header className={headerStyles.header}>
-            <Link href="/">
-                <a>
+            <Link legacyBehavior href="/">
+                <a href="/">
                     <Image
                         priority
                         src="/favicon.ico"
@@ -26,22 +26,22 @@ const Header = () => {
 
             <nav className={headerStyles.links}>
                 <div className={headerStyles.link}>
-                    <Link href="/">
+                    <Link legacyBehavior href="/">
                         <a className={router.pathname == "/" ? headerStyles.active : ""}>Home</a>
                     </Link>
                 </div>
                 <div className={headerStyles.link}>
-                    <Link href="/projects">
+                    <Link legacyBehavior href="/projects">
                         <a className={router.pathname == "/projects" ? headerStyles.active : ""}>Projects</a>
                     </Link>
                 </div>          
                 <div className={headerStyles.link}>
-                    <Link href="/about">
+                    <Link legacyBehavior href="/about">
                         <a className={router.pathname == "/about" ? headerStyles.active : ""}>About</a>
                     </Link>
                 </div>          
                 <div className={headerStyles.link}>
-                    <Link href="/contact">
+                    <Link legacyBehavior href="/contact">
                         <a className={router.pathname == "/contact" ? headerStyles.active : ""}>Contact</a>
                     </Link>
                 </div>
