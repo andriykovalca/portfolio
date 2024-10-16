@@ -32,12 +32,6 @@ export default function about() {
           </p>
         </div>
 
-        <div className='downloadResume'>
-          <h2>Resume</h2>
-          <p>download the PDF version with all details or keep scrolling</p>
-          <a className="button" target="_blank" href="/Andriy-Koval-Resume.pdf"><PictureAsPdfIcon /> Download</a>
-        </div>
-
         <div className='path'>
           <h2>My path</h2>
           
@@ -99,6 +93,12 @@ export default function about() {
             icon={<CodeIcon/>}
             title="Uberflip"
             description="Front-end Web Developer"
+          />
+
+          <StoryCard 
+            icon={<CodeIcon/>}
+            title="Definity"
+            description="Senior Web Developer"
           />
           
         </div>

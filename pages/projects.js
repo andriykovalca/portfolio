@@ -18,6 +18,14 @@ export default function portfolio() {
         <div className="projects">
 
           <Project 
+            title="PostCredit.app" 
+            description="A web app that helps you find and explore movies with post-credit scenes"
+            tech="Node.js, Express.js, React.js, Axios, Cheerio, PSQL"
+            previewlink="https://www.postcredit.app/"
+          >
+          </Project>
+
+          <Project 
             title="Uberflip.com" 
             description="Uberflip's corporate website, built in association with miltiple designers and agencies."
             tech="Wordpress, ACF, PHP, JS, SCSS, Vagrant, GIT, WP Engine"
@@ -31,14 +39,6 @@ export default function portfolio() {
             tech="Wordpress, ACF, PHP, JS, SCSS, GIT"
             previewlink="https://www.rsvfx.com/"
           />
-          
-          <Project 
-            title="Ira Koval - 2.0" 
-            description="Work in Progress - Rebuilding original Ira Koval website with Next.js"
-            tech="Next.js, Wordpress (Headless CMS), GraphQL"
-            previewlink="https://irakoval.vercel.app/"
-          >
-          </Project>
 
           <Project 
             title="Uberflip Hub" 

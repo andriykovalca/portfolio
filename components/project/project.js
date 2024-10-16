@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Project = (project) => {
     return (
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn="fadeIn" offset="800">
             <div className='project'>
                 <div className="container">
                     <div className="description">
