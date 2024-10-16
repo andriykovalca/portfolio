@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
 import Header from '../components/header'
 
 import Link from 'next/link'
@@ -10,7 +10,6 @@ export default function portfolio() {
         <Layout projects>
         <Head>
           <title>Projects - Andriy Koval</title>
-          <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></Link>
         </Head>
         <Header></Header>
         <h1>Latest projects</h1>

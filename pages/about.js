@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
 import Header from '../components/header'
 import StoryCard from '../components/storyCard/storyCard';
 import Link from 'next/link'
@@ -20,8 +20,6 @@ export default function about() {
         <Layout about>
         <Head>
           <title>About - Andriy Koval</title>
-          <Link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
-          <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></Link>
         </Head>
         <Header></Header>
 

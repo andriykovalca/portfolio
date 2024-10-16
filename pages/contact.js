@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
 import Header from '../components/header'
 import styles from '../styles/contact.module.scss';
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 
 export default function contact() {
 
@@ -13,7 +13,6 @@ export default function contact() {
         <Layout contact>
         <Head>
           <title>Contact - Andriy Koval</title>
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
         </Head>
         <Header></Header>
         <div className='contactme'>
